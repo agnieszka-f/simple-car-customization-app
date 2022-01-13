@@ -1,0 +1,42 @@
+button {
+  width: 120px;
+  height: 35px;
+  border: none;
+  background:silver;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.checked {
+    background: black;
+    color: white;
+  }
+  
+  .colorBtn {
+    height:40px;
+    width:40px;
+    border:1px solid silver;
+  }
+  
+  .colorChecked {
+    border: 2px solid black;
+  }
+  
+  .red {
+    background: red;
+  }
+  
+  .blue {
+    background: blue;
+  }
+  
+  .white {
+    background: white;
+  }
+  
+  .silver {
+    background: silver;
+  }
+  

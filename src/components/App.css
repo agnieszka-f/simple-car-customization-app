@@ -1,0 +1,26 @@
+.container{
+  max-width: 1140px;
+  margin: 0 auto; 
+  display:flex;
+  border: 1px solid silver;
+  padding: 20px;
+}
+
+.options{
+  width:70%;
+}
+
+h3{
+  text-transform: uppercase;
+}
+
+@media (max-width: 860px) {
+  .container{
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  .options {
+    width: 100%;
+  }
+}

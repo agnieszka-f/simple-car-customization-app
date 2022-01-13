@@ -1,0 +1,40 @@
+.itemDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.details{ 
+  width:30%;
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border-bottom: 3px solid white;
+}
+
+.img path{ 
+  transform: scale(5.0);
+}
+
+.itemDetails p{
+  margin-bottom: 0;
+}
+
+.summary{
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 860px) {
+  .details{
+    width: 92%;
+    margin-top: 30px;
+  }
+}
